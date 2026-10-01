@@ -1,3 +1,5 @@
-# MI FIRST PROGRAM IN GITHUB CODESPACES
+# act01_hello.py
 
-print("Hello, Wordl!")
+name = input("Your name / Tu nombre: ")
+print("Hello,", name)
+print(f"¡Hola, {name}!")
