@@ -1,5 +1,9 @@
 # Task4 Data Types .py
 
-total = 100 * 1.21
-final  = total - total * 0.1
-print (final, "EUR")
+from config import IVA
+from config import DISCOUNT
+from config import CURRENCY
+
+total = 100 * IVA
+final  = total - total * DISCOUNT
+print (final, "CURRENCY:", CURRENCY)
